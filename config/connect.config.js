@@ -9,7 +9,7 @@ const db = mysql.createPool({
 });
 
 if (!db) {
-  console.log("Lỗi Rồi");
+  console.log("Lỗi cm Rồi");
 }
 
 module.exports = db;
