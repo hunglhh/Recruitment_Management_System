@@ -1,14 +1,12 @@
 const mysql = require("mysql2/promise");
 
 const db = mysql.createPool({
-  host: "sql12.freesqldatabase.com",
-  user: "sql12621730",
-  password: "1rnvkBZ1Zu",
+  host: "localhost",
+  user: "root",
+  password: "",
   port: 3306,
-  database: "sql12621730",
+  database: "recruiting_it",
 });
-// sua them cho nay nhe
-// sua them cho nay nua nhe
 if (!db) {
   console.log("Lỗi Rồi");
 }
